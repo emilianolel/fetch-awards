@@ -1,4 +1,4 @@
-# Data Engineering Take-Home Project: Fetch Awards
+# Data Engineering Take-Home Project: Fetch Rewards
 
 This project demonstrates a data engineering solution that reads data from an AWS SQS queue, hashes certain fields, and inserts the data into a PostgreSQL database. It uses Docker Compose to set up the required services: LocalStack for AWS SQS emulation and a PostgreSQL database.
 
