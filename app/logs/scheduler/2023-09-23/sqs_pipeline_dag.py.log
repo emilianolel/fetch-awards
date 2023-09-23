@@ -1,0 +1,1771 @@
+[2023-09-23T03:47:54.103+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:47:54.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:47:54.106+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:47:54.105+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:47:54.898+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:47:54.897+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:47:54.899+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:47:54.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.875 seconds
+[2023-09-23T03:48:25.787+0000] {processor.py:157} INFO - Started process (PID=97) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:48:25.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:48:25.827+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:48:25.826+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:48:25.926+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:48:25.924+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:48:25.926+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:48:25.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.212 seconds
+[2023-09-23T03:48:57.411+0000] {processor.py:157} INFO - Started process (PID=149) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:48:57.411+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:48:57.413+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:48:57.413+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:48:57.519+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:48:57.518+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:48:57.565+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:48:57.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.386 seconds
+[2023-09-23T03:49:30.594+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:49:30.609+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:49:30.611+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:49:30.610+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:49:30.706+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:49:30.705+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:49:30.706+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:49:30.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.172 seconds
+[2023-09-23T03:50:00.868+0000] {processor.py:157} INFO - Started process (PID=257) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:50:00.907+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:50:00.908+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:50:00.908+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:50:01.000+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:50:00.998+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:50:01.000+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:50:02.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.404 seconds
+[2023-09-23T03:50:32.937+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:50:32.947+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:50:32.948+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:50:32.948+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:50:33.041+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:50:33.040+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:50:33.041+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:50:33.078+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.144 seconds
+[2023-09-23T03:51:03.173+0000] {processor.py:157} INFO - Started process (PID=367) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:51:03.951+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:51:03.955+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:51:03.954+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:51:04.056+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:51:04.055+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:51:04.057+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:51:04.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.975 seconds
+[2023-09-23T03:51:34.213+0000] {processor.py:157} INFO - Started process (PID=415) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:51:34.771+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:51:34.773+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:51:34.773+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:51:34.871+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:51:34.869+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:51:34.871+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:51:36.016+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.805 seconds
+[2023-09-23T03:52:06.573+0000] {processor.py:157} INFO - Started process (PID=478) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:52:06.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:52:06.658+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:52:06.657+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:52:06.757+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:52:06.755+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:52:06.757+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:52:06.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.386 seconds
+[2023-09-23T03:52:37.616+0000] {processor.py:157} INFO - Started process (PID=532) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:52:37.643+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:52:37.644+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:52:37.644+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:52:37.748+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:52:37.747+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:52:37.749+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:52:37.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.297 seconds
+[2023-09-23T03:53:08.267+0000] {processor.py:157} INFO - Started process (PID=587) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:53:08.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:53:08.282+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:53:08.282+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:53:08.373+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:53:08.372+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:53:08.373+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:53:08.415+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.150 seconds
+[2023-09-23T03:53:38.703+0000] {processor.py:157} INFO - Started process (PID=642) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:53:39.557+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:53:39.559+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:53:39.559+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:53:39.667+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:53:39.666+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:53:39.668+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:53:39.715+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.015 seconds
+[2023-09-23T03:54:10.228+0000] {processor.py:157} INFO - Started process (PID=697) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:54:10.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:54:10.584+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:54:10.584+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:54:10.678+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:54:10.677+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:54:10.678+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:54:10.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.593 seconds
+[2023-09-23T03:54:41.062+0000] {processor.py:157} INFO - Started process (PID=752) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:54:41.156+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:54:41.158+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:54:41.158+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:54:41.259+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:54:41.258+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:54:41.259+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:54:41.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.305 seconds
+[2023-09-23T03:55:11.386+0000] {processor.py:157} INFO - Started process (PID=800) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:55:11.641+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:55:11.642+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:55:11.642+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:55:11.733+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:55:11.731+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:55:11.733+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:55:13.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.772 seconds
+[2023-09-23T03:55:43.982+0000] {processor.py:157} INFO - Started process (PID=863) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:55:44.165+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:55:44.167+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:55:44.167+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:55:44.268+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:55:44.267+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:55:44.268+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:55:44.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.382 seconds
+[2023-09-23T03:56:15.111+0000] {processor.py:157} INFO - Started process (PID=918) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:56:15.545+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:56:15.547+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:56:15.547+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:56:15.644+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:56:15.642+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:56:15.644+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:56:16.035+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.927 seconds
+[2023-09-23T03:56:46.333+0000] {processor.py:157} INFO - Started process (PID=973) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:56:46.343+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:56:46.345+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:56:46.345+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:56:46.450+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:56:46.449+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:56:46.450+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:56:46.576+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.246 seconds
+[2023-09-23T03:57:16.807+0000] {processor.py:157} INFO - Started process (PID=1028) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:57:16.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T03:57:16.905+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:57:16.905+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:57:17.008+0000] {logging_mixin.py:151} INFO - [2023-09-23T03:57:17.006+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T03:57:17.008+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T03:57:17.147+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.343 seconds
+[2023-09-23T04:04:27.877+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:04:29.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:04:29.268+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:04:29.267+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:04:29.555+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:04:29.554+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:04:29.555+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:04:30.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 2.381 seconds
+[2023-09-23T04:05:00.345+0000] {processor.py:157} INFO - Started process (PID=94) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:05:00.489+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:05:00.495+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:05:00.494+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:05:00.613+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:05:00.611+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:05:00.613+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:05:02.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 2.144 seconds
+[2023-09-23T04:05:32.525+0000] {processor.py:157} INFO - Started process (PID=150) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:05:32.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:05:32.528+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:05:32.528+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:05:32.616+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:05:32.615+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:05:32.616+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:05:32.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.364 seconds
+[2023-09-23T04:06:03.088+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:06:03.089+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:06:03.091+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:06:03.091+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:06:03.185+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:06:03.184+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:06:03.185+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:06:03.236+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.151 seconds
+[2023-09-23T04:06:33.727+0000] {processor.py:157} INFO - Started process (PID=260) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:06:33.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:06:33.826+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:06:33.826+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:06:33.917+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:06:33.915+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:06:33.917+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:06:34.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.879 seconds
+[2023-09-23T04:07:04.719+0000] {processor.py:157} INFO - Started process (PID=316) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:07:05.047+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:07:05.049+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:07:05.049+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:07:05.142+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:07:05.140+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:07:05.142+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:07:05.179+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.462 seconds
+[2023-09-23T04:07:35.312+0000] {processor.py:157} INFO - Started process (PID=370) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:07:35.445+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:07:35.451+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:07:35.450+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:07:35.565+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:07:35.563+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:07:35.565+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:07:36.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.793 seconds
+[2023-09-23T04:08:06.510+0000] {processor.py:157} INFO - Started process (PID=425) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:08:06.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:08:06.783+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:08:06.783+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:08:06.876+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:08:06.875+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:08:06.876+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:08:07.622+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.115 seconds
+[2023-09-23T04:08:37.674+0000] {processor.py:157} INFO - Started process (PID=480) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:08:37.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:08:37.690+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:08:37.689+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:08:37.783+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:08:37.781+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:08:37.783+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:08:38.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.330 seconds
+[2023-09-23T04:09:08.196+0000] {processor.py:157} INFO - Started process (PID=535) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:09:08.210+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:09:08.211+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:09:08.211+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:09:08.303+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:09:08.302+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:09:08.304+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:09:08.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.173 seconds
+[2023-09-23T04:09:38.430+0000] {processor.py:157} INFO - Started process (PID=590) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:09:38.442+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:09:38.444+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:09:38.443+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:09:38.536+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:09:38.535+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:09:38.536+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:09:39.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.027 seconds
+[2023-09-23T04:10:09.471+0000] {processor.py:157} INFO - Started process (PID=645) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:10:09.547+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:10:09.551+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:10:09.550+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:10:09.661+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:10:09.659+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:10:09.661+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:10:09.702+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.234 seconds
+[2023-09-23T04:10:39.984+0000] {processor.py:157} INFO - Started process (PID=700) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:10:39.993+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:10:39.995+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:10:39.994+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:10:40.084+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:10:40.083+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:10:40.084+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:10:40.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.769 seconds
+[2023-09-23T04:11:10.886+0000] {processor.py:157} INFO - Started process (PID=755) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:11:11.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:11:11.042+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:11:11.041+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:11:11.156+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:11:11.155+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:11:11.156+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:11:11.511+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.628 seconds
+[2023-09-23T04:11:42.141+0000] {processor.py:157} INFO - Started process (PID=810) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:11:42.165+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:11:42.167+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:11:42.167+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:11:42.265+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:11:42.264+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:11:42.266+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:11:42.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.183 seconds
+[2023-09-23T04:12:12.416+0000] {processor.py:157} INFO - Started process (PID=865) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:12:12.968+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:12:12.972+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:12:12.972+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:12:13.063+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:12:13.062+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:12:13.063+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:12:13.112+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.700 seconds
+[2023-09-23T04:12:43.972+0000] {processor.py:157} INFO - Started process (PID=920) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:12:44.164+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:12:44.170+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:12:44.169+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:12:44.263+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:12:44.261+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:12:44.263+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:12:44.331+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.362 seconds
+[2023-09-23T04:13:15.489+0000] {processor.py:157} INFO - Started process (PID=974) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:13:15.522+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:13:15.524+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:13:15.524+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:13:15.624+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:13:15.622+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:13:15.624+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:13:15.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.223 seconds
+[2023-09-23T04:13:46.630+0000] {processor.py:157} INFO - Started process (PID=1028) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:13:46.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:13:46.857+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:13:46.857+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:13:46.952+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:13:46.950+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:13:46.952+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:13:48.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.860 seconds
+[2023-09-23T04:14:18.956+0000] {processor.py:157} INFO - Started process (PID=1083) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:14:19.838+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:14:19.843+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:14:19.843+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:14:19.935+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:14:19.933+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:14:19.935+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:14:20.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.511 seconds
+[2023-09-23T04:14:51.342+0000] {processor.py:157} INFO - Started process (PID=1138) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:14:51.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:14:51.366+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:14:51.366+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:14:51.461+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:14:51.460+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:14:51.461+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:14:51.612+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.273 seconds
+[2023-09-23T04:15:21.694+0000] {processor.py:157} INFO - Started process (PID=1193) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:15:22.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:15:22.190+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:15:22.190+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:15:22.284+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:15:22.283+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:15:22.284+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:15:22.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.657 seconds
+[2023-09-23T04:15:52.829+0000] {processor.py:157} INFO - Started process (PID=1248) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:15:52.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:15:52.847+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:15:52.847+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:15:52.942+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:15:52.940+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:15:52.942+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:15:52.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.170 seconds
+[2023-09-23T04:16:23.186+0000] {processor.py:157} INFO - Started process (PID=1303) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:16:23.227+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:16:23.229+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:16:23.229+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:16:23.334+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:16:23.333+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:16:23.335+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:16:23.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.224 seconds
+[2023-09-23T04:16:54.186+0000] {processor.py:157} INFO - Started process (PID=1358) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:16:54.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:16:54.192+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:16:54.192+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:16:54.288+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:16:54.287+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:16:54.288+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:16:54.336+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.153 seconds
+[2023-09-23T04:17:24.724+0000] {processor.py:157} INFO - Started process (PID=1413) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:17:24.732+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:17:24.734+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:17:24.734+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:17:24.829+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:17:24.828+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:17:24.829+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:17:25.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.899 seconds
+[2023-09-23T04:17:56.537+0000] {processor.py:157} INFO - Started process (PID=1455) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:17:56.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:17:56.596+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:17:56.595+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:17:56.698+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:17:56.696+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:17:56.698+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:17:57.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.647 seconds
+[2023-09-23T04:18:27.478+0000] {processor.py:157} INFO - Started process (PID=1509) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:18:27.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:18:27.529+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:18:27.529+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:18:27.623+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:18:27.622+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:18:27.623+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:18:28.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.824 seconds
+[2023-09-23T04:19:04.646+0000] {processor.py:157} INFO - Started process (PID=1562) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:19:05.096+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:19:05.098+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:19:05.098+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:19:05.191+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:19:05.190+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:19:05.192+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:19:06.114+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.471 seconds
+[2023-09-23T04:19:36.277+0000] {processor.py:157} INFO - Started process (PID=1617) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:19:36.349+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:19:36.350+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:19:36.350+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:19:36.443+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:19:36.442+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:19:36.443+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:19:36.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.441 seconds
+[2023-09-23T04:24:05.900+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:24:05.914+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:24:05.916+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:24:05.916+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:24:06.235+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:24:06.234+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:24:06.235+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:24:06.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.381 seconds
+[2023-09-23T04:24:43.246+0000] {processor.py:157} INFO - Started process (PID=94) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:24:43.246+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:24:43.248+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:24:43.248+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:24:43.344+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:24:43.342+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:24:43.344+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:24:47.077+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 3.835 seconds
+[2023-09-23T04:25:17.487+0000] {processor.py:157} INFO - Started process (PID=149) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:25:17.709+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:25:17.714+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:25:17.713+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:25:17.807+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:25:17.806+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:25:17.807+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:25:17.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.418 seconds
+[2023-09-23T04:25:48.102+0000] {processor.py:157} INFO - Started process (PID=204) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:25:48.121+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:25:48.123+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:25:48.122+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:25:48.217+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:25:48.215+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:25:48.218+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:25:49.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.639 seconds
+[2023-09-23T04:26:20.400+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:26:20.707+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:26:20.712+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:26:20.712+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:26:20.807+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:26:20.805+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:26:20.807+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:26:20.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.483 seconds
+[2023-09-23T04:26:50.912+0000] {processor.py:157} INFO - Started process (PID=314) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:26:51.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:26:51.832+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:26:51.832+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:26:51.927+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:26:51.925+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:26:51.927+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:26:51.967+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.058 seconds
+[2023-09-23T04:27:22.294+0000] {processor.py:157} INFO - Started process (PID=369) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:27:22.321+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:27:22.323+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:27:22.323+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:27:22.416+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:27:22.415+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:27:22.416+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:27:22.471+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.180 seconds
+[2023-09-23T04:27:52.986+0000] {processor.py:157} INFO - Started process (PID=424) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:27:53.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:27:53.044+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:27:53.044+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:27:53.140+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:27:53.139+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:27:53.140+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:27:53.186+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.203 seconds
+[2023-09-23T04:28:23.611+0000] {processor.py:157} INFO - Started process (PID=479) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:28:23.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:28:23.623+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:28:23.623+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:28:23.716+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:28:23.715+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:28:23.717+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:28:24.938+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.330 seconds
+[2023-09-23T04:28:54.983+0000] {processor.py:157} INFO - Started process (PID=534) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:28:54.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:28:54.989+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:28:54.989+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:28:55.078+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:28:55.077+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:28:55.078+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:28:55.552+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.572 seconds
+[2023-09-23T04:29:25.956+0000] {processor.py:157} INFO - Started process (PID=589) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:29:26.919+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:29:26.922+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:29:26.922+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:29:27.024+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:29:27.023+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:29:27.024+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:29:27.812+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.859 seconds
+[2023-09-23T04:29:57.842+0000] {processor.py:157} INFO - Started process (PID=644) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:29:58.071+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:29:58.073+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:29:58.073+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:29:58.169+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:29:58.167+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:29:58.169+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:29:59.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.466 seconds
+[2023-09-23T04:30:29.376+0000] {processor.py:157} INFO - Started process (PID=699) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:30:30.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:30:30.210+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:30:30.210+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:30:30.307+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:30:30.306+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:30:30.308+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:30:30.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.987 seconds
+[2023-09-23T04:31:00.586+0000] {processor.py:157} INFO - Started process (PID=754) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:31:01.267+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T04:31:01.269+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:31:01.269+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:31:01.365+0000] {logging_mixin.py:151} INFO - [2023-09-23T04:31:01.364+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T04:31:01.366+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T04:31:01.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.958 seconds
+[2023-09-23T22:35:18.661+0000] {processor.py:157} INFO - Started process (PID=45) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:35:18.883+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:35:18.885+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:35:18.884+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:35:20.473+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:35:20.343+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:35:20.474+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:35:20.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.931 seconds
+[2023-09-23T22:35:52.950+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:35:53.005+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:35:53.007+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:35:53.007+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:35:53.099+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:35:53.098+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:35:53.176+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:35:54.205+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.257 seconds
+[2023-09-23T22:36:25.099+0000] {processor.py:157} INFO - Started process (PID=158) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:36:25.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:36:25.356+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:36:25.356+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:36:25.447+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:36:25.446+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:36:25.447+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:36:25.644+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.548 seconds
+[2023-09-23T22:36:55.683+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:36:55.736+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:36:55.737+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:36:55.737+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:36:55.828+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:36:55.826+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:36:55.828+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:36:55.939+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.259 seconds
+[2023-09-23T22:37:26.076+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:37:26.986+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:37:26.988+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:37:26.988+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:37:27.079+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:37:27.078+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:37:27.079+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:37:27.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.114 seconds
+[2023-09-23T22:37:57.844+0000] {processor.py:157} INFO - Started process (PID=322) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:37:57.854+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:37:57.856+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:37:57.856+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:37:57.945+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:37:57.943+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:37:57.945+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:37:59.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.364 seconds
+[2023-09-23T22:38:29.571+0000] {processor.py:157} INFO - Started process (PID=377) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:38:29.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:38:29.582+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:38:29.582+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:38:29.678+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:38:29.677+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:38:29.678+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:38:30.657+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.089 seconds
+[2023-09-23T22:39:00.816+0000] {processor.py:157} INFO - Started process (PID=433) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:39:00.885+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:39:00.887+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:39:00.887+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:39:00.984+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:39:00.982+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:39:00.984+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:39:01.071+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.259 seconds
+[2023-09-23T22:39:31.551+0000] {processor.py:157} INFO - Started process (PID=488) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:39:31.888+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:39:31.890+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:39:31.890+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:39:31.985+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:39:31.983+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:39:31.985+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:39:32.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.280 seconds
+[2023-09-23T22:40:02.942+0000] {processor.py:157} INFO - Started process (PID=543) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:40:03.100+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:40:03.102+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:40:03.102+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:40:03.202+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:40:03.200+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:40:03.202+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:40:03.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.540 seconds
+[2023-09-23T22:40:33.723+0000] {processor.py:157} INFO - Started process (PID=597) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:40:33.947+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:40:33.949+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:40:33.948+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:40:34.042+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:40:34.040+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:40:34.042+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:40:34.467+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.747 seconds
+[2023-09-23T22:41:04.974+0000] {processor.py:157} INFO - Started process (PID=652) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:41:05.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:41:05.086+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:41:05.086+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:41:05.205+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:41:05.203+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:41:05.206+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:41:05.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.936 seconds
+[2023-09-23T22:41:36.038+0000] {processor.py:157} INFO - Started process (PID=708) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:41:36.114+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:41:36.116+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:41:36.115+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:41:36.216+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:41:36.214+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:41:36.216+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:41:36.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 0.279 seconds
+[2023-09-23T22:42:06.745+0000] {processor.py:157} INFO - Started process (PID=763) to work on /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:42:06.889+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sqs_pipeline_dag.py for tasks to queue
+[2023-09-23T22:42:06.891+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:42:06.891+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:42:06.987+0000] {logging_mixin.py:151} INFO - [2023-09-23T22:42:06.986+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/sqs_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 123, in <module>
+    sqa_pipeline_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3817, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/sqs_pipeline_dag.py", line 38, in sqa_pipeline_dag
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-09-23T22:42:06.988+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sqs_pipeline_dag.py
+[2023-09-23T22:42:08.369+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sqs_pipeline_dag.py took 1.626 seconds
